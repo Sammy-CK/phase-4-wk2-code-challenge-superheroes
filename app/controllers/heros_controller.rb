@@ -1,5 +1,5 @@
 class HerosController < ApplicationController
-  rescue_from ActiveRecord::RecordNotFound, with: :not_found
+  rescue_from ActiveRecord::RecordNotFound, with: :not_found_hero
 
   def index
     heroes = Hero.all
@@ -13,7 +13,7 @@ class HerosController < ApplicationController
 
   private
 
-  def not_found
+  def not_found_hero
     render json: { error: "Hero not found" }, status: :not_found
   end
 end
