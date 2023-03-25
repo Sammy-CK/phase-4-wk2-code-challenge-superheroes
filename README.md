@@ -5,8 +5,7 @@ We have three models: Hero, Power, and HeroPower.
 
 
 ## Use this link to access the api and add endpoints to perform requests:
-                https://pizzas-sv6f.onrender.com/
-
+        https://hero-p4fk.onrender.com/heroes
 
 ## Models
 
